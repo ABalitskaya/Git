@@ -10,7 +10,7 @@ git restore --stagef <file>
  git revert HEAD <код комита> + git push 
 
 4. Как создать новую ветку и переключится в нее?
-git checkout <название ветки> - создать ветку или переключиться на ветку, если такая уже есть
+git branch <название ветки> - создать ветку
 git checkout -b <название ветки> - создать ветку и переключиться на нее
 
 5. В чем отличение между fast-forward merge  and non fast-forfard merge?
